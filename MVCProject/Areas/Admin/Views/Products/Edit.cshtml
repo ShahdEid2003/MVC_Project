@@ -1,0 +1,53 @@
+﻿@model Product
+@section heading {
+    products
+}
+@section title {
+    edit
+}
+<form method="post" action="/admin/products/edit" enctype="multipart/form-data">
+    <input type="hidden" name="Id" value="@Model.Id" />
+
+    <div class="form-group">
+        <label for="productName">Name</label>
+        <input name="Name" type="text" class="form-control" id="productName" value="@Model.Name" placeholder="Enter Name" />
+    </div>
+
+    <div class="form-group">
+        <label for="productDescription">Description</label>
+        <textarea name="Description" class="form-control" id="productDescription" placeholder="Enter Description">@Model.Description</textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="productPrice">Price</label>
+        <input name="Price" type="text" class="form-control" id="productPrice" value="@Model.Price" placeholder="Enter Price" />
+    </div>
+
+    <div class="form-group">
+        <label for="productQuantity">Quantity</label>
+        <input name="Quantity" type="text" class="form-control" id="productQuantity" value="@Model.Quantity" placeholder="Enter Quantity" />
+    </div>
+
+    <div class="form-group">
+        <label for="productImage">Image</label>
+        <img src="/images/@Model.Image" width="200px" />
+        <input name="Image" type="file" class="form-control" id="productImage" />
+    </div>
+    <label>Category</label>
+    <select class="form-control mb-5 " name="CategoryId">
+        @foreach (var item in ViewBag.Categories)
+        {
+            if (@item.Id == Model.CategoryId)
+            {
+                <option value="@item.Id" selected>@item.Name</option>
+            }
+            else
+            {
+                <option value="@item.Id">@item.Name</option>
+            }
+
+        }
+    </select>
+
+    <button type="submit" class="btn btn-primary">update</button>
+</form>

@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\mvcproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|solutionrelative:mvcproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|c:\\users\\user\\documents\\full stack\\backend\\mvc\\mvcproject\\mvcproject\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|solutionrelative:mvcproject\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|c:\\users\\user\\documents\\full stack\\backend\\mvc\\mvcproject\\mvcproject\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|solutionrelative:mvcproject\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\mvcproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|solutionrelative:mvcproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\mvcproject\\services\\imageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|solutionrelative:mvcproject\\services\\imageservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\mvcproject\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|solutionrelative:mvcproject\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\mvcproject\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|solutionrelative:mvcproject\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\mvcproject\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37B3118-540B-4DC2-8CFF-77396E501539}|MVCProject\\MVCProject.csproj|solutionrelative:mvcproject\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVCProject\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "MVCProject\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T22:01:28.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "MVCProject\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Models\\Category.cs",
+              "RelativeToolTip": "MVCProject\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:12:49.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MVCProject\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Models\\Product.cs",
+              "RelativeToolTip": "MVCProject\\Models\\Product.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:08:26.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVCProject\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "MVCProject\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T17:24:31.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVCProject\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVCProject\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T17:11:28.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCProject\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "MVCProject\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T17:01:20.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "MVCProject\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "MVCProject\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwB0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T15:54:18.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImageServices.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Services\\ImageServices.cs",
+              "RelativeDocumentMoniker": "MVCProject\\Services\\ImageServices.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\Services\\ImageServices.cs",
+              "RelativeToolTip": "MVCProject\\Services\\ImageServices.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA2wB0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T15:52:08.389Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
