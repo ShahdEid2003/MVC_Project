@@ -10,12 +10,10 @@ namespace MVCProject.Models
         [Required]
         [MinLength(3)]
         [MaxLength(100)]
-        public string Name { get; set; }
-
-        [Range(0, 100000)]
+        public string Name { get; set; }        
         public string Description { get; set; }
 
-        [Range(0, 5)]
+        [Range(0, 100000)]
         public decimal Price { get; set; }
 
         [Range(0, 5)]
@@ -25,7 +23,7 @@ namespace MVCProject.Models
         public int Quantity { get; set; }
 
         public double Discount { get; set; }
-        public string Image { get; set; }
+        public string? Image { get; set; }
         public int CategoryId { get; set; }
         [ValidateNever]
         public Category Category { get; set; }

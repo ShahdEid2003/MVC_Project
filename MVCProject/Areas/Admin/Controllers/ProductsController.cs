@@ -60,6 +60,11 @@ namespace MVCProject.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Edit(Product request , IFormFile? Image)
         {
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Categories = context.Categories.ToList();
+                return View(request);
+            }
             var exitingProduct= context.Products.AsNoTracking().FirstOrDefault(p=>p.Id== request.Id);
             if (Image is not null) {
                 var imageService = new ImageServices();

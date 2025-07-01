@@ -1,43 +1,51 @@
 ﻿@model Product
+
 @section heading {
     products
 }
 @section title {
     edit
 }
+
 <form method="post" action="/admin/products/edit" enctype="multipart/form-data">
-    <input type="hidden" name="Id" value="@Model.Id" />
+    <input type="hidden" asp-for="Id" />
 
     <div class="form-group">
-        <label for="productName">Name</label>
-        <input name="Name" type="text" class="form-control" id="productName" value="@Model.Name" placeholder="Enter Name" />
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" placeholder="Enter Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="productDescription">Description</label>
-        <textarea name="Description" class="form-control" id="productDescription" placeholder="Enter Description">@Model.Description</textarea>
+        <label asp-for="Description">Description</label>
+        <textarea asp-for="Description" class="form-control" placeholder="Enter Description"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="productPrice">Price</label>
-        <input name="Price" type="text" class="form-control" id="productPrice" value="@Model.Price" placeholder="Enter Price" />
+        <label asp-for="Price">Price</label>
+        <input asp-for="Price" class="form-control" placeholder="Enter Price" />
+        <span asp-validation-for="Price" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="productQuantity">Quantity</label>
-        <input name="Quantity" type="text" class="form-control" id="productQuantity" value="@Model.Quantity" placeholder="Enter Quantity" />
+        <label asp-for="Quantity">Quantity</label>
+        <input asp-for="Quantity" class="form-control" placeholder="Enter Quantity" />
+        <span asp-validation-for="Quantity" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="productImage">Image</label>
+        <label asp-for="Image">Image</label>
         <img src="/images/@Model.Image" width="200px" />
-        <input name="Image" type="file" class="form-control" id="productImage" />
+        <input asp-for="Image" type="file" class="form-control" />
+        <span asp-validation-for="Image" class="text-danger"></span>
     </div>
-    <label>Category</label>
-    <select class="form-control mb-5 " name="CategoryId">
+
+    <label asp-for="CategoryId">Category</label>
+    <select class="form-control mb-5" name="CategoryId" asp-for="CategoryId">
         @foreach (var item in ViewBag.Categories)
         {
-            if (@item.Id == Model.CategoryId)
+            if (item.Id == Model.CategoryId)
             {
                 <option value="@item.Id" selected>@item.Name</option>
             }
@@ -45,9 +53,12 @@
             {
                 <option value="@item.Id">@item.Name</option>
             }
-
         }
     </select>
+    <span asp-validation-for="CategoryId" class="text-danger"></span>
 
     <button type="submit" class="btn btn-primary">update</button>
 </form>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>

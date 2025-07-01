@@ -5,44 +5,47 @@
 @section title {
     create
 }
-<form method="post" action="/admin/products/create" enctype="multipart/form-data">
-    <div class="form-group">
-        <label for="exampleInputEmail1">Name</label>
-        <input name="Name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Name">
-        <span class="text-danger" asp-validation-for="Name"></span>
 
+<form asp-action="create" asp-controller="products" asp-area="admin" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="exampleInputEmail1">Description</label>
-        <textarea name="Description" class="form-control" id="exampleInputEmail1" placeholder="Enter Description"></textarea>
-        <span class="text-danger" asp-validation-for="Description"></span>
-
+        <label asp-for="Description" class="control-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="exampleInputEmail1">Price</label>
-        <input name="Price" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Price">
-        <span class="text-danger" asp-validation-for="Price"></span>
+        <label asp-for="Price" class="control-label"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="exampleInputEmail1">Quantity</label>
-        <input name="Quantity" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Quantity">
-        <span class="text-danger" asp-validation-for="Quantity"></span>
+        <label asp-for="Quantity" class="control-label"></label>
+        <input asp-for="Quantity" class="form-control" />
+        <span asp-validation-for="Quantity" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="exampleInputEmail1">Image</label>
-        <input name="Image" type="file" class="form-control" id="exampleInputEmail1">
+        <label asp-for="Image" class="control-label"></label>
+        <input asp-for="Image" type="file" class="form-control" />
     </div>
-    <label>Category</label>
-    <select class="form-control mb-5 " name="CategoryId">
-        @foreach(var item in ViewBag.Categories)
-        {
-            <option value="@item.Id">@item.Name</option>
-        }
-    </select>
+
+    <div class="form-group">
+        <label asp-for="CategoryId" class="control-label"></label>
+        <select asp-for="CategoryId" class="form-control mb-5" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
+            <option value="">-- Select Category --</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
 
     <button type="submit" class="btn btn-primary">Create</button>
-</form>
+</form> 
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>

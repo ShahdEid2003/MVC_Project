@@ -145,6 +145,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\wwwroot\\images\\4626a6f9-c415-43a1-877c-2b9d9f5965b7.jpg",
+      "PackagePath": "staticwebassets\\images\\4626a6f9-c415-43a1-877c-2b9d9f5965b7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\wwwroot\\images\\d9b8285e-b787-4aa4-afe7-45d8a87ce236.jpg",
+      "PackagePath": "staticwebassets\\images\\d9b8285e-b787-4aa4-afe7-45d8a87ce236.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\wwwroot\\images\\ea2629cb-b0de-486b-bebb-7799aad928dd.jpg",
+      "PackagePath": "staticwebassets\\images\\ea2629cb-b0de-486b-bebb-7799aad928dd.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\Documents\\Full Stack\\BackEnd\\mvc\\MVCProject\\MVCProject\\wwwroot\\js\\scripts.js",
       "PackagePath": "staticwebassets\\js\\scripts.js"
     },

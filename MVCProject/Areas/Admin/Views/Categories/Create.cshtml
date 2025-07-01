@@ -8,12 +8,16 @@
 <form method="post" action="/admin/categories/create">
 
     <div class="card-body">
-        <input type="hidden" name="Id">
+      
         <div class="form-group">
             <label for="exampleInputEmail1">Name</label>
             <input name="Name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Category Name">
+            <span asp-validation-for="Name" class="text-danger"></span>
         </div>
         
     </div>
     <button type="submit" class="btn btn-primary">create</button>
 </form>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>

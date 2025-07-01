@@ -1,0 +1,22 @@
+﻿@model Category
+@section heading {
+    Categories
+}
+@section title {
+    Edit
+}
+<form method="post" action="/admin/categories/edit">
+    <div class="card-body">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <div class="form-group">
+            <label for="categoryName">Name</label>
+            <input name="Name" type="text" class="form-control" id="categoryName" value="@Model.Name" placeholder="Enter Category Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Edit</button>
+</form>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>

@@ -283,3 +283,4 @@ C:\Users\user\Documents\Full Stack\BackEnd\mvc\MVCProject\MVCProject\bin\Debug\n
 C:\Users\user\Documents\Full Stack\BackEnd\mvc\MVCProject\MVCProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\user\Documents\Full Stack\BackEnd\mvc\MVCProject\MVCProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\user\Documents\Full Stack\BackEnd\mvc\MVCProject\MVCProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\user\Documents\Full Stack\BackEnd\mvc\MVCProject\MVCProject\obj\Debug\net8.0\MVCProject.sourcelink.json
